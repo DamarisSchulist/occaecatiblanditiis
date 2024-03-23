@@ -1,0 +1,32 @@
+{
+  "name": "occaecatiblanditiis",
+  "version": "1.0.0",
+  "description": "This module repackages [ethers.js](https://github.com/ethers-io/ethers.js/) for use in BigQuery, to decode Ethereum event logs and transaction inputs.",
+  "main": "print-event-topics.js",
+  "bin": "dist/ethers.js",
+  "files": [
+    "print-event-topics.js",
+    "test-log-with-tuples.js",
+    "test-log.js",
+    "test-transaction.js",
+    "webpack.config.js"
+  ],
+  "dependencies": {
+    "ethers": "^5.0.19"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamarisSchulist/occaecatiblanditiis.git"
+  },
+  "keywords": [
+    "saepe",
+    "big query",
+    "eius"
+  ],
+  "author": "JaydeJakubowski",
+  "license": "MIT"
+}
